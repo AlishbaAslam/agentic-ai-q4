@@ -3,7 +3,8 @@ name = "mood-analyzer-with-handoffs"
 version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"
-requires-python = ">=3.13"
+requires-python = ">=3.11"
 dependencies = [
+    "openai==1.99.1",
     "openai-agents>=0.2.2",
 ]
